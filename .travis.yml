@@ -30,5 +30,5 @@ after_success:
   # pushing all container to docker hub
   - docker push yigityilmaz/multi-client
   - docker push yigityilmaz/multi-nginx
-    - docker push yigityilmaz/multi-server
+  - docker push yigityilmaz/multi-server
   - docker push yigityilmaz/multi-worker
